@@ -15,7 +15,7 @@ class UnderConstruction extends Component {
       <div style={{ backgroundColor: "#ffd838", minHeight: "100vh", color: "black" }}>
         <Grid container spacing={2} >
           <Grid item xs={12}>
-            <img src={banda} />
+            <div  className="scroll"  style={{ backgroundImage: 'url(' + banda + ')', height: "36px" }}></div>
           </Grid>
           <Grid item xs={12}>
             <img src={logo} height={90} width={90} />
@@ -26,13 +26,13 @@ class UnderConstruction extends Component {
               <Grid item xs={12} md={6}>
                 <img src={construct} style={{ maxWidth: "300px", width: "100%", height: "auto" }} />
               </Grid>
-              <Grid item xs={12} md={6} style={{fontWeight:"bold", fontSize:"xxx-large", margin:"auto"}}>
+              <Grid item xs={12} md={6} style={{ fontWeight: "bold", fontSize: "xxx-large", margin: "auto" }}>
                 SITE UNDER CONSTRUCTION
               </Grid>
             </Grid>
           </Grid>
           <Grid item xs={12}>
-            Want to know MORE? follow us on social media 
+            Want to know MORE? follow us on social media
           </Grid>
           <Grid item xs={12}>
             <Grid container spacing={1} style={{ paddingTop: "50px" }}>
@@ -73,7 +73,7 @@ class UnderConstruction extends Component {
             </Grid>
           </Grid>
           <Grid item xs={12}>
-            <img src={banda} />
+            <div className="scroll" style={{ backgroundImage: 'url(' + banda + ')', height: "36px", marginTop:"8px" }}></div>
           </Grid>
 
         </Grid>
